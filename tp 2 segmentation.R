@@ -16,7 +16,7 @@ library('rpart.plot') # plot decision trees
 
 # load table
 musch <- read.table(
-  file = "C:/Users/Bouba/ENSAI Informatique/Apprentissage Supervisé/TP2/data/muschroom.csv",
+  file = "data/muschroom.csv",
   sep = ",",
   header = TRUE
 )
