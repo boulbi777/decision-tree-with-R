@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1599226347587.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2A9953F2",
+    "lastKnownWriteTime" : 1599226614,
+    "last_content_update" : 1599226614076,
+    "path" : "C:/Users/Bouba/ENSAI Informatique/Apprentissage Supervisé/decision-tree-with-r/Full Exemple.Rmd",
+    "project_path" : "Full Exemple.Rmd",
+    "properties" : {
+        "cursorPosition" : "66,41",
+        "scrollLine" : "64",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
