@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1599227453130.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1028094259",
+    "id" : "AAB4ECCE",
+    "lastKnownWriteTime" : 1599227482,
+    "last_content_update" : 1599227482563,
+    "path" : "C:/Users/Bouba/ENSAI Informatique/Apprentissage Supervisé/decision-tree-with-r/main.R",
+    "project_path" : "main.R",
+    "properties" : {
+        "cursorPosition" : "18,10",
+        "scrollLine" : "14"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

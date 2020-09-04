@@ -1,17 +1,3 @@
----
-title: "Decision Trees with R"
-knit: (function(input_file, encoding) {
-  out_dir <- 'docs';
-  rmarkdown::render(input_file,
- encoding=encoding,
- output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
-author: "Bouba"
-date: "04/09/2020"
-output: html_document
----
-
-```{r }
-
 
 # Packages ------------------------------------------------------------------------------------
 
@@ -60,8 +46,8 @@ nrow(test)/nrow(musch) #Pourcentage de la base "Test"
 # Define parameters for the rpart decision tree and run the model.
 
 # Information on the rpart function
-# ?rpart
-# ?rpart.control
+?rpart
+?rpart.control
 
 # define the parameters
 parametres <- rpart.control(
@@ -95,8 +81,8 @@ rpart.plot(model)
 summary(model)
 
 # evolution of the tree size and of the error based on the cp parameter
-#Il s'agit de la représentation de la l'erreur relative de validation croisée
-#selon la taille de l'arbre. Le 3e est sélectionné ici.
+#Il s'agit de la repr?sentation de la l'erreur relative de validation crois?e
+#selon la taille de l'arbre. Le 3e est s?lectionn? ici.
 plotcp(model)
 
 # probabilities for the two classes for each observations of the test set
@@ -173,7 +159,7 @@ sum(predtest2!= test$classe)/nrow(test)
 # Decision tree using CHAID
 
 # see the help page
-# ?chaid
+?chaid
 
 # chaid decision tree
 model3 <- chaid(
@@ -198,4 +184,3 @@ plot(
 )
 
 
-```
